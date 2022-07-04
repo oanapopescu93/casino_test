@@ -1,0 +1,72 @@
+{
+  "name": "casino_froentend",
+  "version": "1.0.0",
+  "description": "casino",
+  "homepage": "https://bunnybet.herokuapp.com",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --config ./webpack.config.js"
+  },
+  "author": "Oana Popescu",
+  "license": "ISC",
+  "peerDependencies": {
+    "react": "^16.3.0",
+    "react-dom": "^16.3.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^5.2.0",
+    "dotenv": "^6.2.0",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^4.5.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "style-loader": "^2.0.0",
+    "webpack": "^4.32.2",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.5.1"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.1.1",
+    "@fortawesome/free-solid-svg-icons": "^6.1.1",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "bootstrap": "^4.5.2",
+    "font-awesome": "^4.7.0",
+    "html-react-parser": "^1.4.0",
+    "jquery": "^3.5.1",
+    "owl.carousel": "^2.3.4",
+    "react-bootstrap": "^2.4.0",
+    "react-owl-carousel": "^2.3.3",
+    "react-redux": "^7.0.0",
+    "react-redux-form": "^1.16.14",
+    "react-router": "^5.2.0",
+    "react-router-dom": "^5.2.0",
+    "reactstrap": "^8.6.0",
+    "redux": "^4.0.4",
+    "redux-devtools-extension": "^2.13.9",
+    "redux-thunk": "^2.3.0",
+    "simple-react-validator": "^1.5.0",
+    "socket.io": "^2.3.0",
+    "socket.io-client": "^2.3.0",
+    "thunk": "^0.0.1"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "proxy": "http://localhost:5000"
+}
