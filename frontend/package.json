@@ -1,5 +1,5 @@
 {
-  "name": "casino_froentend",
+  "name": "casino_frontend",
   "version": "1.0.0",
   "description": "casino",
   "homepage": "https://bunnybet.herokuapp.com",
@@ -7,7 +7,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack-dev-server --mode development",
-    "build": "webpack --mode production"
+    "build": "webpack -p"
   },
   "author": "Oana Popescu",
   "license": "ISC",

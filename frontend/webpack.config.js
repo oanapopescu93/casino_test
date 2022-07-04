@@ -8,10 +8,10 @@ const htmlWebpackPlugin = new HtmlWebpackPlugin({
   
 module.exports = () => {
     return {
-        entry: path.join(__dirname, "src/index.js"),
+        entry: path.join(__dirname, "./src/index.js"),
         output: {
             path: path.join(__dirname, "build"),
-            filename: "index.js",
+            filename: "bundle.js",
             publicPath: '/'
         },
         module: {
