@@ -6,7 +6,7 @@
   "main": "./src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack-dev-server --mode development",
+    "start": "webpack serve --mode development",
     "build": "webpack --mode production"
   },
   "author": "Oana Popescu",
