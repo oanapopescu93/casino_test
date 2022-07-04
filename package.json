@@ -14,7 +14,7 @@
         "backend": "cd backend && npm start",
         "frontend": "cd frontend && npm start",
         "start": "concurrently --kill-others-on-fail \"npm run backend\" \"npm run frontend\"",
-        "heroku-postbuild": "cd frontend && npm install && npm run build",
+        "heroku-postbuild": "cd frontend && npm install && npm install --only=dev --no-shrinkwrap && npm run build",
         "build": "cd frontend && npm run build && cls && cd .."
     },
     "author": "oana popescu",
