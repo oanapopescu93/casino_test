@@ -20,10 +20,11 @@ var mailOptions = {
 };
 var recovery_email = "";
 
+console.log('aaa ', __dirname)
 router.use(express.static(path.join(__dirname, '../frontend/build')));
-router.get('*', function(req, res) {
-	res.sendFile(path.join(__dirname, '../frontend/build', 'index.html'));
-});
+// router.get('*', function(req, res) {
+// 	res.sendFile(path.join(__dirname, '../frontend/build', 'index.html'));
+// });
 
 router.post('/registration', function(req, res, next) {
 	res.redirect('/salon');
